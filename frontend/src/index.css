@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+body {
+margin: 0;
+font-family: 'Inter', system-ui, -apple-system, sans-serif;
+background-color: #f8fafc; /* Light slate background to match the new dashboard */
+color: #1e293b;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure smooth transitions and clean layouts */
+html, body {
+overflow-x: hidden;
+width: 100%;
+scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for a more professional feel in sidebars */
+.custom-scrollbar::-webkit-scrollbar {
+width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+background: #e2e8f0;
+border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+background: #cbd5e1;
+}
